@@ -31,5 +31,15 @@ Y_pred = model.predict(X_test)
 accuracy = accuracy_score(Y_test, Y_pred)                   # Compares true vs predicted labels
 
 # Print the accuracy of the model, rounded to 2 decimal places
-print(f"Model Accuracy: {accuracy: .2f}")                                             
+print(f"Model Accuracy: {accuracy: .2f}")     
+
+# Evaluate accuracy 
+accuracy = accuracy_score(Y_test, model.predict(X_test))
+print("Model accuracy:", round(accuracy, 2))               # e.g. - 0.97
+
+# Make a prediction
+sample = pd.DataFrame([[5.1, 3.5, 1.4, 0.2]], columns = iris.feature_names)                            # Sepal & petal measurements
+predicted_class = model.predict(sample)[0]
+predicted_label = iris.target_names[predicted_class]
+print("Prediction for input:\n", sample)
 
