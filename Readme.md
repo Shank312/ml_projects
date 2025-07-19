@@ -31,3 +31,13 @@ Build a Machine Learning model to classify iris flowers into:
 git clone https://github.com/Shank312/ml_projects.git
 cd ml_projects/01_iris_classification
 
+📊 Sample Output
+
+Model Accuracy:  1.00
+Model accuracy: 1.0
+Prediction for input:
+   sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)
+0                5.1               3.5                1.4               0.2
+Predicted class: setosa
+
+
