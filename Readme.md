@@ -1,4 +1,12 @@
 
+## Quick summary (Client-friendly)
+I built a simple AI model that identifies the species of an iris flower from four measurements. 
+This project demonstrates end-to-end ML skills I use for business problems — data cleaning, model training, evaluation, and an exportable model you can reuse.
+
+📂 Full code & demo screenshots: https://github.com/Shank312/ml_projects
+
+
+
 # 🌸 Iris Flower Classification (ML Project #1)
 
 ## 🎯 Goal
